@@ -1,3 +1,2 @@
 # mw-assets
-Assets folder website 
-Using github for my blog repository
+this repo is for for my blog repository

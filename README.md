@@ -1,2 +1,2 @@
 # mw-assets
-this repo is for for my blog repository
+this repo is for my blog repository

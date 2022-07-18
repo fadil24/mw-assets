@@ -1242,9 +1242,6 @@ section {
 /*--------------------------------------------------------------
 # Blog BLOGGER Style
 --------------------------------------------------------------*/
-.blog {
-  padding: 0px 0 20px 0;
-}
 .blog .blog-posts {
   flex: 0 0 auto;
 }
@@ -1355,6 +1352,12 @@ a.home-link:hover {
   pointer-events: none;
 }
 /* ====== Sidebar Widget ====== */
+.blog .sidebar {
+  padding: 30px;
+  margin: 0 0 60px 20px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+
 .blog .sidebar .widget {
   padding-bottom: 30px;
 }
@@ -1446,7 +1449,7 @@ a.home-link:hover {
   color: #d9232d;
 }
 
-/* ------ Sidebar - Search ------ */
+/* ------ Sidebar - Blog Search ------ */
 .blog .BlogSearch .gsc-search-box {
   position: relative;
 }
@@ -1458,7 +1461,7 @@ a.home-link:hover {
   margin: 0;
 }
 
-.blog .BlogSearcht .gsc-input input[type=text] {
+.blog .BlogSearch .gsc-input input[type=text] {
   border-radius: 4px 0 0 4px;
   padding: 5px 10px;
   font-size: 16px;
